@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<title>Game of life challenge</title>
+	</head>
+	<header><center><h1>Game of life challenge</h1></center></header>
+	<body onload="iniciarJuego()">
+		<center>
+			<canvas id="tablero" class="table" width="1000" height="400"></canvas>
+		</center>
+		<center>
+		<table>
+			<tr><th align="center">You can modify the number of cells</th></tr>
+			<tr > <td> <span> Width(Max 100) Height(Max 40) </span> </td></tr>
+			<tr><td align="center"><input placeholder="60" id="x" type="text" name="Ancho"> <input placeholder="30" id="y" type="text" name="Alto"> <button onclick="cambiartamano()"> Modify size</button></td></tr>
+		</table>
+		</center>	
+		<center>Before starting, click on the cells to give them life</center>
+		<center>
+			<button onclick=" iniciar()">Play</button>
+			<button onclick="detener()">Pause</button>
+			<button onclick="limpiar()">Stop & clean</button>
+		</center>
+		
+			
+</body>
+	<script type="text/javascript" src="js/tablero.js"></script>
+	<script type="text/javascript" src="js/partida.js"></script>	
+</html>

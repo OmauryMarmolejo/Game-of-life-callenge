@@ -1,0 +1,27 @@
+body{
+	background-color: #ECF0F1;
+	font-family: 'Open Sans', sans-serif;
+	color: #2C3E50;
+}
+
+
+input{
+	width: 3em;
+}
+
+button {
+  background: #34495E;
+  
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  color: #ECF0F1;
+  padding: 4px 4px 4px 4px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #14426A;
+  
+  text-decoration: none;
+}
